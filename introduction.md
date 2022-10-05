@@ -1,20 +1,19 @@
 ---
-title: "Intro to Test-Driven Development"
+title: "Using RMarkdown"
 teaching: 10
 exercises: 2
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- What is Test-Driven Development?
-- How can Test-Driven Decvelopment benefit biologial researchers?
+- How do you write a lesson using R Markdown and `{sandpaper}`?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Define "Test-Driven Development"
-- List and explain the benefits and drawbacks of using Test-Driven Development in your research
+- Explain how to use markdown with the new lesson template
+- Demonstrate how to include pieces of code, figures, and nested challenge blocks
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -110,9 +109,7 @@ Cool, right?
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
-- Test-Driven Development (TDD) is a software process tool
-- Traditional software is written first, then tested
-- TDD  writing tests before writing code
+- Use `.md` files for episodes when you want static content
 - Use `.Rmd` files for episodes when you need to generate output
 - Run `sandpaper::check_lesson()` to identify any issues with your lesson
 - Run `sandpaper::build_lesson()` to preview your lesson locally
